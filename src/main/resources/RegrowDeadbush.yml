@@ -1,0 +1,11 @@
+#
+# HAI
+# Use this to enable and configure MFRegrowDeadbush
+# grow-radius - radius of growth
+# percentage of blocks in radius to grow on
+#
+
+worlds:
+    world:
+        deadbush-grow-radius: 3
+        deadbush-grow-percentage: 10

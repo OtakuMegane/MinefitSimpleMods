@@ -1,0 +1,12 @@
+#
+# HAI
+# Use this to enable the different mods
+#
+
+enablePrecisePortal: false
+enableRegrowDeadbush: false
+enableSpawnPoint: false
+enableMinecartFix: false
+enableRandomMOTD: false
+enableCreeperNerf: false
+enableBlockData: true

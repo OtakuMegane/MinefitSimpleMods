@@ -1,0 +1,10 @@
+#
+# HAI
+# Use this to enable and configure BlockData
+#
+
+worlds:
+    ESSBOSS:
+        enabled: true
+        show-temperature: true
+        show-humidity: true

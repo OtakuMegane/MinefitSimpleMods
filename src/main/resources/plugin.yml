@@ -1,0 +1,21 @@
+name: MinefitSimpleMods
+main: com.minefit.XerxesTireIron.MinefitSimpleMods.MinefitSimpleMods
+version: 1.0
+
+commands:
+    spawn:
+        description: 'Return to spawn'
+    setspawn:
+        description: "Set the current world's spawn point"
+permissions:
+    simplemods.*:
+        description: Access to /spawn and /setspawn commands
+        children:
+            simplemods.gospawn: true
+            simplemods.setspawn: true
+        simplemods.gospawn:
+            description: Return to spawn
+            default: op
+        simplemods.setspawn:
+            description: Set the spawn point for your current world
+            default: op

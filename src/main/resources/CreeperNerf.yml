@@ -1,0 +1,9 @@
+#
+# HAI
+# Use this to enable and configure MFBoatFix
+#
+
+worlds:
+    ESSBOSS:
+        enabled: true
+        block-damage-ceiling: 0
