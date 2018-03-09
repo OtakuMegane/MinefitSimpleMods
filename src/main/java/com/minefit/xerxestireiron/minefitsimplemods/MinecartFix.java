@@ -1,4 +1,4 @@
-package com.minefit.XerxesTireIron.MinefitSimpleMods;
+package com.minefit.xerxestireiron.minefitsimplemods;
 
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;

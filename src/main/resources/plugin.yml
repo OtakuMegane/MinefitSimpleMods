@@ -1,5 +1,5 @@
 name: MinefitSimpleMods
-main: com.minefit.XerxesTireIron.MinefitSimpleMods.MinefitSimpleMods
+main: com.minefit.xerxestireiron.minefitsimplemods.MinefitSimpleMods
 version: 1.0
 
 commands:

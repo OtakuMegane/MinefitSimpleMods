@@ -1,4 +1,4 @@
-package com.minefit.XerxesTireIron.MinefitSimpleMods;
+package com.minefit.xerxestireiron.minefitsimplemods;
 
 import java.util.List;
 import java.util.Random;
