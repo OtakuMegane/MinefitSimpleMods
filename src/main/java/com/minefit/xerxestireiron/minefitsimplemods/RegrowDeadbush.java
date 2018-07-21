@@ -28,7 +28,7 @@ public class RegrowDeadbush implements Listener {
             Block block = event.getClickedBlock();
             String growConfig = "RegrowDeadbush.worlds." + block.getWorld().getName() + ".";
 
-            if (usedItem.getType() == Material.INK_SACK && usedItem.getData().getData() == 15) {
+            if (usedItem.getType() == Material.BONE_MEAL) {
                 Location bLocation = block.getLocation();
                 int growRadius = this.plugin.main_config.getInt(growConfig + "deadbush-grow-radius");
                 int growPercent = this.plugin.main_config.getInt(growConfig + "deadbush-grow-percentage");
