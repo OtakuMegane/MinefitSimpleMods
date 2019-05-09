@@ -1,6 +1,6 @@
 package com.minefit.xerxestireiron.minefitsimplemods;
 
-import org.bukkit.TravelAgent;
+//import org.bukkit.TravelAgent;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
@@ -23,7 +23,7 @@ public class PrecisePortal implements Listener {
             return;
         }
 
-        event.setCancelled(false);
+        /*event.setCancelled(false);
         TravelAgent pta = event.getPortalTravelAgent();
         Player player = event.getPlayer();
         int searchRadius = this.plugin.main_config
@@ -32,6 +32,6 @@ public class PrecisePortal implements Listener {
 
         int creationRadius = this.plugin.main_config
                 .getInt("PrecisePortal.worlds." + player.getWorld().getName() + ".create-radius", 16);
-        pta.setCreationRadius(creationRadius);
+        pta.setCreationRadius(creationRadius);*/
     }
 }

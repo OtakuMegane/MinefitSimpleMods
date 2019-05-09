@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.minefit.xerxestireiron</groupId>
   <artifactId>minefitsimplemods</artifactId>
-  <version>1.0.1</version>
+  <version>1.1</version>
   <name>MinefitSimpleMods</name>
   <build>
     <finalName>MinefitSimpleMods-${project.version}</finalName>
@@ -21,7 +21,7 @@
   	<dependency>
   		<groupId>org.bukkit</groupId>
   		<artifactId>bukkit</artifactId>
-  		<version>1.13-pre7-R0.1-SNAPSHOT</version>
+  		<version>1.14-R0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>
 </project>
