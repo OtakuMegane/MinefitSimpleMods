@@ -131,7 +131,7 @@ public class SpawnPoint implements Listener {
 
     public void setSpawn(Player player) {
         if (!player.hasPermission("simplemods.setspawn")) {
-            player.sendMessage("You are not allowed to use the /spawn command.");
+            player.sendMessage("You are not allowed to use the /setspawn command.");
             return;
         }
 

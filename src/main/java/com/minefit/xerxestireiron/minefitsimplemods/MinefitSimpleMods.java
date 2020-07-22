@@ -121,9 +121,9 @@ public class MinefitSimpleMods extends JavaPlugin implements Listener {
             return false;
         }
 
-        if (cmd.getName().equalsIgnoreCase("spawn")) {
+        if (cmd.getName().equalsIgnoreCase("spawn") && this.spawnPoint != null) {
             this.spawnPoint.moveToSpawn(player);
-        } else if (cmd.getName().equalsIgnoreCase("setspawn")) {
+        } else if (cmd.getName().equalsIgnoreCase("setspawn") && this.spawnPoint != null) {
             this.spawnPoint.setSpawn(player);
         }
 
