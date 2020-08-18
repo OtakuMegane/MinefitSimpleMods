@@ -1,3 +1,11 @@
+#
+# HAI
+# Use this to enable and configure SpawnPoint
+#
+# Example:
+# worlds:
+#   world:
+#     enabled: true
+
 worlds:
-    ESSBOSS:
-        enabled: true
+

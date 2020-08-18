@@ -1,12 +1,14 @@
 #
 # HAI
-# Use this to enable and configure MFPrecisePortal
+# Use this to enable and configure PrecisePortal
 #
+# Eaxmple:
+# worlds:
+#   world:
+#     search-radius: 16
+#     create-radius: 16
+#   world_nether:
+#     search-radius: 128
+#     create-radius: 128
 
 worlds:
-    world:
-        search-radius: 16
-        create-radius: 16
-    world_nether:
-        search-radius: 128
-        create-radius: 128

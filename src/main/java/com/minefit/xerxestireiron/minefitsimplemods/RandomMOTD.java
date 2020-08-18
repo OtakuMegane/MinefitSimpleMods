@@ -12,20 +12,20 @@ import org.bukkit.event.server.ServerListPingEvent;
 public class RandomMOTD implements Listener {
     private final MinefitSimpleMods plugin;
     private final Random random = new Random();
-    private final List<String> MOTDList;
-    private int listLength = 0;
+    private final List<String> MOTDMessages;
+    private int messageCount = 0;
 
     public RandomMOTD(MinefitSimpleMods instance) {
         this.plugin = instance;
-        this.MOTDList = this.plugin.main_config.getStringList("RandomMOTD.messages");
-        this.listLength = this.MOTDList.size();
+        this.MOTDMessages = this.plugin.loadYaml("MOTDMessages.yml").getStringList("messages");
+        this.messageCount = this.MOTDMessages.size();
     }
 
     @EventHandler(priority = EventPriority.NORMAL)
     private void onServerPing(ServerListPingEvent event) {
-        if (this.listLength != 0) {
+        if (this.messageCount != 0) {
             event.setMotd(ChatColor.translateAlternateColorCodes('&',
-                    this.MOTDList.get(this.random.nextInt(this.listLength))));
+                    this.MOTDMessages.get(this.random.nextInt(this.messageCount))));
         }
     }
 }

@@ -1,9 +1,9 @@
 #
 # HAI
-# Use this to enable and configure MFBoatFix
+# Use this to enable and configure CreeperNerf
 #
-
+# worlds:
+#   world:
+#     enabled: true
+#     block-damage-ceiling: 0
 worlds:
-    ESSBOSS:
-        enabled: true
-        block-damage-ceiling: 0

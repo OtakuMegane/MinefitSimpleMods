@@ -1,20 +1,24 @@
 name: MinefitSimpleMods
 main: com.minefit.xerxestireiron.minefitsimplemods.MinefitSimpleMods
-version: 1.1
-api-version: 1.13
+version: 1.2
+api-version: 1.16
 
 commands:
     spawn:
         description: 'Return to spawn'
+        permission: minefit.simplemods.spawn
+        permission-message: "You are not allowed to use the /spawn command."
     setspawn:
         description: "Set the current world's spawn point"
+        permission-message: "You are not allowed to use the /setspawn command."
+        permission: minefit.simplemods.setspawn
 permissions:
     simplemods.*:
         description: Access to /spawn and /setspawn commands
         children:
-            simplemods.gospawn: true
+            simplemods.spawn: true
             simplemods.setspawn: true
-        simplemods.gospawn:
+        simplemods.spawn:
             description: Return to spawn
             default: op
         simplemods.setspawn:

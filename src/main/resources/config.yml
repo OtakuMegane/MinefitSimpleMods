@@ -9,4 +9,4 @@ enableSpawnPoint: false
 enableMinecartFix: false
 enableRandomMOTD: false
 enableCreeperNerf: false
-enableBlockData: true
+enableBlockData: false
