@@ -118,7 +118,7 @@ public class MinefitSimpleMods extends JavaPlugin implements Listener {
 
     public boolean saveYaml(YamlConfiguration config, String fileName) {
         try {
-            config.load(new File(getDataFolder(), fileName));
+            config.save(new File(getDataFolder(), fileName));
         } catch (Exception e) {
             return false;
         }

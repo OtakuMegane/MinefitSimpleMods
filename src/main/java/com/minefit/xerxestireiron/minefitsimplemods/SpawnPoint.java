@@ -113,5 +113,6 @@ public class SpawnPoint implements CommandExecutor, Listener {
         this.spawnConfig.set("worlds." + worldName + ".spawnYaw", newSpawn.getYaw());
         this.spawnConfig.set("worlds." + worldName + ".spawnPitch", newSpawn.getPitch());
         this.plugin.saveYaml(this.spawnConfig, "WorldSpawns.yml");
+        player.sendMessage("Spawn point for " + worldName + " has been changed!");
     }
 }
